@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+header {
+  background-color: #3d5a80;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container {
+  width: 70%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo h1 {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 24.51px;
+}
+header .container nav {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+header .container nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+}
+header .container nav ul li {
+  list-style: none;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .container .btn button {
+  background-color: #ee6c4d;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+header .container .btn button:hover {
+  cursor: pointer;
+}
+
+#website {
+  background-color: #3d5a80;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+#website .create {
+  margin: 40px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#website .create .content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+#website .create .content h1 {
+  width: 75%;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: left;
+}
+#website .create .content h1 span {
+  color: #ee6c4d;
+}
+#website .create .content p {
+  color: white;
+}
+#website .create .content button {
+  background-color: #ee6c4d;
+  width: 30%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+#website .create .content button:hover {
+  cursor: pointer;
+}
+#website .create .imgs {
+  background-color: aliceblue;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#website .create .imgs .img1 {
+  position: absolute;
+  height: 595px;
+  z-index: 1;
+}
+#website .create .imgs .img2 {
+  position: absolute;
+  height: 300px;
+  top: -310px;
+}
+
+#container2 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #293241;
+}
+#container2 .containerTop {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#container2 .containerTop .imgs2 {
+  width: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container2 .containerTop .aboutMe {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+#container2 .containerTop .aboutMe h1 {
+  display: flex;
+  justify-content: space-between;
+  left: 60;
+  color: white;
+}
+#container2 .containerTop .aboutMe p {
+  display: flex;
+  color: white;
+}
+
+#container3 {
+  width: 100%;
+  height: 200px;
+  background: #2F3746;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#container3 .containerBottom {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#container3 .containerBottom h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293241;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 800px;
+}
+#container4 .containerTop2 {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#container4 .containerTop2 h1 {
+  display: flex;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+#container4 .containerTop2 .line {
+  width: 20%;
+  height: 3px;
+  background-color: #ee6c4d;
+}
+#container4 .images1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 30px;
+  padding: 40px;
+}
+#container4 .images1 .image {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-bottom: 25px;
+}
+#container4 .images1 .pteqi {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+#container4 .btnBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+#container4 .btnBottom .btn1 {
+  width: 15%;
+  height: 40px;
+  border: 2px solid #ee6c4d;
+  background-color: transparent;
+  padding-top: 4px;
+  color: #ee6c4d;
+}
+
+#container5 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F3746;
+  flex-direction: column;
+}
+#container5 .containerTop3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#container5 .containerTop3 h1 {
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+#container5 .containerTop3 .line2 {
+  width: 30%;
+  height: 3px;
+  background-color: #ee6c4d;
+}
+#container5 .containerDiv {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#container5 .containerDiv .imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4509803922);
+  height: 250px;
+  width: 40%;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 9px;
+  padding: 6px;
+}
+#container5 .containerDiv .imageDiv img {
+  width: 15%;
+  height: 80px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 9px;
+  padding-left: 9px;
+}
+#container5 .containerDiv .imageDiv p {
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding: 10px;
+}
+#container5 .containerDiv .imageDiv .imageDiv {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding-right: 15px;
+  font-size: 12px;
+}
+#container5 .endctnr {
+  width: 95px;
+  height: 11px;
+  top: 2562px;
+  left: 635px;
+  margin-top: 75px;
+}
+
+#containerEnd {
+  width: 100%;
+  height: 400px;
+  background-color: #3D5A80;
+}
+#containerEnd .containerTopEnd {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+}
+#containerEnd .containerTopEnd h1 {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 9px;
+}
+#containerEnd .containerTopEnd .lineEnd {
+  width: 26%;
+  height: 3px;
+  background-color: #EE6C4D;
+  margin-top: 10px;
+}
+#containerEnd .form {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  gap: 4px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#containerEnd .form .text {
+  background-color: rgba(0, 0, 0, 0.3803921569);
+  color: #ffffff;
+  width: 504px;
+  height: 38px;
+  top: 2768px;
+  left: 159px;
+  border-radius: 3px 0px 0px 0px;
+}
+#containerEnd #message {
+  margin-left: 50px;
+  width: 80%;
+  height: 200px;
+}
+#containerEnd #message .message1 {
+  background-color: rgba(0, 0, 0, 0.3803921569);
+  color: wheat;
+}
+#containerEnd .endBtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+#containerEnd .endBtn .btnEnd {
+  width: 12%;
+  height: 30px;
+  background-color: #EE6C4D;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #293241;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 100px;
+  margin-left: 25px;
+  background-color: #293241;
+}
+.Footer .icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.Footer p {
+  color: wheat;
+  font-style: bold;
+}
